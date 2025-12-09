@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harshit's Portfolio</title>
+  <link class="fav" rel="icon" type="image/png" href="assets/harshit-img.jpg">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+  <!-- tagline -->
+  <div class="tagline">
+    <span>
+      Development , Design & More
+    </span>
+    <div class="right">
+      <div class="divider"></div>
+      <img src="assets/harshit-img.jpg" alt="">
+    </div>
+  </div>
+
+  <!-- header with logo -->
+  <div class="logo">
+    <div id="mob-menu" class="mob-menu-icon">|||</div>
+    <img src="assets/logo.svg" alt="" srcset="">
+  </div>
+  <!-- Main Content -->
+  <section class="main" id="mainSite">
+    <div class="row">
+      <div class="row">
+        <div id="mobile-menu" class="mobile-menu">
+          <!-- <img src="assets/logo.svg" alt="" srcset=""> -->
+          <span id="mob-menu-close" class="close">&times; close</span>
+          <a href="index.html">Home</a>
+          <a href="skills.html">Skills</a>
+          <a class="active" href="projects.html">Projects</a>
+          <a href="contact.html">Contact Me</a>
+
+          <div class="logo">
+            <!-- <div id="mob-menu" class="mob-menu-icon">|||</div> -->
+            <img src="assets/logo.svg" alt="" srcset="">
+          </div>
+        </div>
+        <div class="vertival-menu">
+          <a class="" href="index.html">Home</a>
+          <a href="skills.html">Skills</a>
+          <a class="active" href="#">Projects</a>
+          <a href="contact.html">Contact Me</a>
+          <img class="circular-logo" src="assets/circular-logo.svg" alt="">
+        </div>
+        <div class="middle-region">
+          <h1 class="name">PROJECTS :</h1>
+          <p class="secondry-text m-t-10">CLICK THE CARD TO SEE DETAILS</p>
+          <p class="p-10"></p>
+          <p class="p-10"></p>
+
+          <!-- projects section :  -->
+          <h2>Full Stack Projects :</h2><br>
+          <!-- # 0 -->
+          <div class="projects-section">
+            <div id="Music-player" class="project-item"
+              onclick="openProjectModal('Music-player','Music Player','VS Code (HTML, CSS, JS)','1 Month','I designed and developed a modern Music Player interface that offers a smooth listening experience with an intuitive and visually appealing UI. The player includes essential features such as play/pause controls, next/previous track navigation, progress tracking, volume adjustment, and playlist management. The design focuses on clean layouts, bold typography, and dynamic animations that make the experience engaging across both mobile and desktop devices. This project highlights my front-end UI/UX skills, attention to detail, and ability to translate user needs into a functional, attractive digital music experience.')">
+              <img src="project-images/Music-player/img1.png" alt="">
+              <div class="project-details">
+                <h2>Music Player</h2>
+                <h3>Technology Used : VS Code (HTML, CSS, JS)</h3>
+                <h4>I designed and developed a modern Music Player interface that offers a smooth listening experience
+                  with an intuitive and visually appealing UI. The player includes essential features such as play/pause
+                  controls, next/previous track navigation, progress tracking, volume adjustment, and playlist
+                  management.
+                  The design focuses on clean layouts, bold typography, and dynamic animations that make the experience
+                  engaging across both mobile and desktop devices. This project highlights my front-end UI/UX skills,
+                  attention to detail, and ability to translate user needs into a functional, attractive digital music
+                  experience.</h4>
+              </div>
+            </div>
+            <!-- # 1 -->
+            <div id="e-service" class="project-item"
+              onclick="openProjectModal('e-service','E-services Portal','Mendix','3 Months','A platform for passport requests, document updates, and other govt. services')">
+              <img src="project-images/e-service/image (6).png" alt="">
+              <div class="project-details">
+                <h2>E-services Portal</h2>
+                <h3>Technology Used : Mendix</h3>
+                <h4>A platform for passport requests, document updates, and other govt. services</h4>
+              </div>
+            </div>
+            <!-- # 2 -->
+            <div id="smart-facality-management" class="project-item"
+              onclick="openProjectModal('smart-facality-management','Smart Facality Management','Mendix','6 Months','This Mendix-based Smart Facility Management application offers a centralized platform to manage work orders, track field agents, monitor delays, and analyze facility operations using interactive dashboards and charts. It improves workflow efficiency, reduces downtime, and helps organizations maintain high facility standards.')">
+              <img src="project-images/smart-facality-management/image (6).png" alt="">
+              <div class="project-details">
+                <h2>Smart Facality Management</h2>
+                <h3>Technology Used : Mendix</h3>
+                <h4>This Mendix-based Smart Facility Management application offers a centralized platform to manage work
+                  orders, track field agents, monitor delays, and analyze facility operations using interactive
+                  dashboards
+                  and charts. It improves workflow efficiency...</h4>
+              </div>
+            </div>
+            <!-- # 3 -->
+            <div id="Hrms" class="project-item"
+              onclick="openProjectModal('Hrms','HRMS : Human Resource Management System','Mendix','7 Months','The Human Resource Management System (HRMS) is a complete enterprise-level HR solution built using the Mendix low-code platform. It centralizes and automates the core HR operations of an organization, ensuring seamless management of employees, attendance, leaves, and hierarchy across multiple branches. The system provides a highly structured workflow that reduces manual effort, improves transparency, and enhances workforce productivity.')">
+              <img src="project-images/Hrms/img1.png" alt="">
+              <div class="project-details">
+                <h2>HRMS : Human Resource Management System</h2>
+                <h3>Technology Used : Mendix</h3>
+                <h4>The Human Resource Management System (HRMS) is a complete enterprise-level HR solution built using
+                  the
+                  Mendix low-code platform. It centralizes and automates the core HR operations of an organization,
+                  ensuring seamless management of employees, attendance...</h4>
+              </div>
+            </div>
+            <!-- # 4 -->
+            <h2>UX Projects (Figma Related) :</h2><br>
+            <div id="Marvel" class="project-item"
+              onclick="openProjectModal('Marvel','Marvel Theme Website Design','Figma','1 week','The Marvel Universe Website is a high-impact entertainment platform designed in Figma to highlight the cinematic world of Marvel. The UI combines bold visuals, powerful colors, and dynamic layouts to showcase movies, characters, and news in an engaging way. It features dedicated sections for popular and upcoming films, an extensive character directory, a news hub, and an informative “About Marvel” segment. The design strives to replicate the dramatic and energetic feel of Marvel Studios while maintaining smooth navigation and a scalable component-based structure.')">
+              <img class="ux-img" src="project-images/Marvel/img1.png" alt="">
+              <div class="project-details">
+                <h2>Marvel Theme Website Design</h2>
+                <h3>Technology Used : Figma</h3>
+                <h4>The Marvel Universe Website is a high-impact entertainment platform designed in Figma to highlight
+                  the
+                  cinematic world of Marvel. The UI combines bold visuals, powerful colors, and dynamic layouts to
+                  showcase movies, characters, and news in an engaging way. It features dedicated sections for popular
+                  and
+                  upcoming films, an extensive character directory, a news hub, and an informative “About Marvel”
+                  segment.
+                  The design strives to replicate the dramatic and energetic feel of Marvel Studios while maintaining
+                  smooth navigation and a scalable component-based structure.</h4>
+              </div>
+            </div>
+
+            <!-- # 5 -->
+            <div id="Squid-games" class="project-item"
+              onclick="openProjectModal('Squid-games','Squid Games Theme Website Design','Figma','1 week','This Squid Game themed website is a visually striking design inspired by the atmosphere of the Netflix series. The interface uses dark tones, neon accents, and iconic Squid Game symbols to deliver an immersive user experience. It includes episode listings, trailer pages, detailed cast and character profiles, and a merchandise store section. The layout focuses on suspenseful aesthetics, interactive visuals, and clean navigation, creating a complete digital portal for fans of the series.')">
+              <img class="ux-img" src="project-images/Squid-games/img1.png" alt="">
+              <div class="project-details">
+                <h2>Squid Games Theme Website Design</h2>
+                <h3>Technology Used : Figma</h3>
+                <h4>This Squid Game themed website is a visually striking design inspired by the atmosphere of the
+                  Netflix
+                  series. The interface uses dark tones, neon accents, and iconic Squid Game symbols to deliver an
+                  immersive user experience. It includes episode listings, trailer pages, detailed cast and character
+                  profiles, and a merchandise store section. The layout focuses on suspenseful aesthetics, interactive
+                  visuals, and clean navigation, creating a complete digital portal for fans of the series.</h4>
+              </div>
+            </div>
+
+            <!-- # 6 -->
+            <div id="Insurance-app" class="project-item"
+              onclick="openProjectModal('Insurance-app','Insurance Application Design','Figma','1 week','The Insurance Application UI is a clean, user-friendly interface created to simplify policy management and purchase workflows. It includes a comprehensive dashboard, policy comparison module, guided form flows for purchasing new plans, and intuitive search and filter features. The design uses a professional blue-and-white theme, ensuring clarity and trustworthiness across the app. This project emphasizes accessibility, smooth information flow, and practical navigation for users handling multiple insurance needs.')">
+              <img class="ux-img" src="project-images/Insurance-app/img1.png" alt="">
+              <div class="project-details">
+                <h2>Insurance Application Design</h2>
+                <h3>Technology Used : Figma</h3>
+                <h4>The Insurance Application UI is a clean, user-friendly interface created to simplify policy
+                  management
+                  and purchase workflows. It includes a comprehensive dashboard, policy comparison module, guided form
+                  flows for purchasing new plans, and intuitive search and filter features. The design uses a
+                  professional
+                  blue-and-white theme, ensuring clarity and trustworthiness across the app. This project emphasizes
+                  accessibility, smooth information flow, and practical navigation for users handling multiple insurance
+                  needs.</h4>
+              </div>
+            </div>
+
+            <!-- # 7 -->
+            <div id="Lamborgini" class="project-item"
+              onclick="openProjectModal('Lamborgini','Lamborgini Theme Design','Figma','1 week','The Lamborghini website design is a futuristic and luxury-inspired concept crafted to reflect the brand’s advanced engineering and high-performance identity. It features full-width car sliders, detailed specification pages, sleek monochrome themes, and gold-accented highlights that emphasize premium quality. The interface uses sharp edges, minimalistic layouts, and modern typography to create a bold digital presence. This design focuses on showcasing Lamborghini cars in a visually immersive and aspirational manner.')">
+              <img class="ux-img" src="project-images/Lamborgini/img1.png" alt="">
+              <div class="project-details">
+                <h2>Lamborgini Theme Design</h2>
+                <h3>Technology Used : Figma</h3>
+                <h4>The Lamborghini website design is a futuristic and luxury-inspired concept crafted to reflect the
+                  brand’s advanced engineering and high-performance identity. It features full-width car sliders,
+                  detailed
+                  specification pages, sleek monochrome themes, and gold-accented highlights that emphasize premium
+                  quality. The interface uses sharp edges, minimalistic layouts, and modern typography to create a bold
+                  digital presence. This design focuses on showcasing Lamborghini cars in a visually immersive and
+                  aspirational manner.</h4>
+              </div>
+            </div>
+          </div>
+
+
+  </section>
+
+  <!-- Modal -->
+  <div id="skillsmodal" class="modal-2">
+    <div class="modal-content-2">
+      <span class="close" onclick="closeSkillModal()">&times;</span>
+      <!-- carousel :  -->
+      <div class="slider">
+        <div class="slider_wrap">
+          <div class="slider_item">
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1566345984367-fa2ba5cedc17?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="">
+            </figure>
+          </div>
+          <div class="slider_item">
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNwYWNlfGVufDB8fDB8fHww"
+                alt="">
+            </figure>
+          </div>
+          <div class="slider_item">
+            <figure>
+              <img
+                src="https://plus.unsplash.com/premium_photo-1678832578846-03a3c798262c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHNwYWNlfGVufDB8fDB8fHww"
+                alt="">
+            </figure>
+          </div>
+          <div class="slider_item">
+            <figure>
+              <img
+                src="https://plus.unsplash.com/premium_photo-1679426867133-4339ecff39f4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fHNwYWNlfGVufDB8fDB8fHww"
+                alt="">
+            </figure>
+          </div>
+          <div class="slider_item">
+            <figure>
+              <img
+                src="https://plus.unsplash.com/premium_photo-1679756099015-b06104fff761?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzN8fHNwYWNlfGVufDB8fDB8fHww"
+                alt="">
+            </figure>
+          </div>
+          <div class="slider_item">
+            <figure>
+              <img
+                src="https://plus.unsplash.com/premium_photo-1680079229453-c6b54d3911e9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODV8fHNwYWNlfGVufDB8fDB8fHww"
+                alt="">
+            </figure>
+          </div>
+          <div class="slider_item">
+            <figure>
+              <img
+                src="https://plus.unsplash.com/premium_photo-1677025010863-e6808d8b7461?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA5fHxzcGFjZXxlbnwwfHwwfHx8MA%3D%3D"
+                alt="">
+            </figure>
+          </div>
+          <div class="slider_item">
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1504221507732-5246c045949b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTg4fHxzcGFjZXxlbnwwfHwwfHx8MA%3D%3D"
+                alt="">
+            </figure>
+          </div>
+          <div class="slider_item">
+            <figure>
+              <img
+                src="https://plus.unsplash.com/premium_photo-1721254102757-6ac520920e0a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjAxfHxzcGFjZXxlbnwwfHwwfHx8MA%3D%3D"
+                alt="">
+            </figure>
+          </div>
+        </div>
+        <div class="slider_progress">
+          <div class="progress_bar"></div>
+        </div>
+      </div>
+
+      <!-- ****************************************************************************************** -->
+      <h1 style="margin-bottom: 10px;" id="skill-name">Project Name : </h1>
+      <h2 style="margin-bottom: 10px;" id="experience">Tool Used : </h2>
+      <h3 style="margin-bottom: 10px;" id="projects">Duration : </h3>
+      <p id="details">Details: </p>
+
+    </div>
+  </div>
+
+  <!-- line pattern -->
+  <img class="line-pattern" src="assets/line_pattern.svg" alt="">
+
+  <!-- circle pattern -->
+  <div class="circle-pattern">
+    <div class="circle-1"></div>
+    <div class="circle-2"></div>
+  </div>
+
+  <!-- footer -->
+  <div class="footer">
+    <span>© <span id="currentYear"></span> Harshit Studios. All rights reserved.</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

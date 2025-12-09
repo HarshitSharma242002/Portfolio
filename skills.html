@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harshit's Portfolio</title>
+  <link class="fav" rel="icon" type="image/png" href="assets/harshit-img.jpg">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+  <!-- tagline -->
+  <div class="tagline">
+    <span>
+      Development , Design & More
+    </span>
+    <div class="right">
+      <div class="divider"></div>
+      <img src="assets/harshit-img.jpg" alt="">
+    </div>
+  </div>
+
+  <!-- header with logo -->
+  <div class="logo">
+    <div id="mob-menu" class="mob-menu-icon">|||</div>
+    <img src="assets/logo.svg" alt="" srcset="">
+  </div>
+  <!-- Main Content -->
+  <section class="main" id="mainSite">
+    <div class="row">
+      <div class="row skill-page-fix">
+      <div id="mobile-menu" class="mobile-menu">
+        <!-- <img src="assets/logo.svg" alt="" srcset=""> -->
+        <span id="mob-menu-close" class="close">&times; close</span>
+        <a href="index.html">Home</a>
+        <a class="active" href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact Me</a>
+
+        <div class="logo">
+          <!-- <div id="mob-menu" class="mob-menu-icon">|||</div> -->
+          <img src="assets/logo.svg" alt="" srcset="">
+        </div>
+      </div>
+      <div class="vertival-menu">
+        <a class="" href="index.html">Home</a>
+        <a class="active" href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact Me</a>
+        <img class="circular-logo" src="assets/circular-logo.svg" alt="">
+      </div>
+      <div class="middle-region">
+        <h1 class="name">SKILLS :</h1>
+        <p class="secondry-text m-t-10">CLICK THE CARD TO SEE DETAILS</p>
+        <p class="p-10"></p>
+        <p class="p-10"></p>
+
+        <div class="skills-section">
+          <div class="row" style="gap: 15px; margin-bottom: 15px;">
+            <div class="skill-card"
+              onclick="openSkillModal('assets/mendix.svg'); skillname('MENDIX', '1.5 years','3','I have 1.5 years of experience in Mendix, a low-code application development platform, where I delivered enterprise-grade solutions across multiple domains. I developed three major projects: <br><br> E-Services Platform Application that included passport requests, document update requests, and other government services. <br><br> I developed a Smart Facility Management Application, similar to Urban Company, designed to connect users with on-demand home and facility services. The application enables service booking, scheduling, tracking, and payment integration, providing a seamless experience for both customers and service providers. It also includes features for service management, resource allocation, and feedback collection to ensure quality and efficiency. This project strengthened my skills in application design, workflow automation, and user-centric development while giving me practical exposure to building real-world service-based digital solutions. <br><br> Xebia Insurance application where users can buy and manage their insurance policies and access their transaction history in a better way and thi application was Packed eith AI chatbot feature. <br><br> These projects enhanced my expertise in Mendix microflows, domain models, integrations, and UI design, allowing me to build scalable, user-friendly, and efficient business applications.')">
+              <div class="upper">
+                <img src="assets/mendix.svg" alt="">
+              </div>
+              <div class="lower">
+                <h3>MENDIX</h3>
+              </div>
+            </div>
+
+            <div class="skill-card"
+              onclick="openSkillModal('assets/html.svg'); skillname('HTML', '2 years', '2', 'I have strong foundational experience in HTML, gained through building structured and semantic web pages. I applied my skills in two projects: a portfolio website and a music player website. In these projects, I designed layouts using semantic tags, ensuring accessibility and proper document structure. My work focused on organizing content effectively while following best practices in markup. Through this, I learned to create scalable web pages that can integrate smoothly with CSS for styling and JavaScript for interactivity. This experience gave me confidence in crafting well-structured websites and served as a solid base for my web development journey.')">
+              <div class="upper">
+                <img src="assets/html.svg" alt="">
+              </div>
+              <div class="lower">
+                <h3>HTML</h3>
+              </div>
+            </div>
+
+            <div class="skill-card"
+              onclick="openSkillModal('assets/css.svg'); skillname('CSS', '2 years', '2', 'I have practical experience in CSS, where I focused on creating visually appealing and responsive web designs. I utilized CSS extensively in my portfolio website and music player website, applying concepts such as flexbox, grid layout, animations, and transitions. My work involved enhancing user experience through clean design, proper color schemes, typography, and adaptive layouts for different screen sizes. I also experimented with hover effects and styling components to make the interfaces engaging and user-friendly. This experience gave me a deeper understanding of modern web design principles and improved my ability to transform static HTML into interactive, polished websites.')">
+              <div class="upper">
+                <img src="assets/css.svg" alt="">
+              </div>
+              <div class="lower">
+                <h3>CSS</h3>
+              </div>
+            </div>
+
+            <div class="skill-card"
+              onclick="openSkillModal('assets/java-script.svg'); skillname('JAVA SCRIPT', '2 years', '2', 'I have experience in JavaScript, where I focused on adding interactivity and dynamic behavior to web applications. As part of my learning, I created a music player website that used JavaScript for event handling, DOM manipulation, and dynamic content updates. I also applied JavaScript in my portfolio website to enhance user engagement through interactive features. This experience strengthened my problem-solving skills and taught me how to structure efficient, reusable code. Working with JavaScript gave me practical exposure to building responsive, interactive web solutions while deepening my understanding of core programming concepts in a front-end development context.')">
+              <div class="upper">
+                <img src="assets/java-script.svg" alt="">
+              </div>
+              <div class="lower">
+                <h3>JAVA SCRIPT</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="row" style="gap: 15px; margin-bottom: 15px;">
+            <div class="skill-card"
+              onclick="openSkillModal('assets/figma.svg'); skillname('FIGMA', '1 year', '7', 'I have 1 year of experience in UI/UX design using Figma, where I focused on creating modern, user-friendly, and visually engaging interfaces. Over this period, I completed 7 projects that enhanced my design and prototyping skills. These include a Demon Slayer website, Marvel movie site, Squid Games design, personal portfolio design, Cyberpunk website design, Lamborghini website design, and an Insurance app design. Through these projects, I gained expertise in wireframing, prototyping, layout structuring, and applying design principles such as color theory, typography, and responsiveness. This experience strengthened my creativity and ability to design functional, aesthetic digital products.')">
+              <div class="upper">
+                <img src="assets/figma.svg" alt="">
+              </div>
+              <div class="lower">
+                <h3>FIGMA</h3>
+              </div>
+            </div>
+
+            <div class="skill-card"
+              onclick="openSkillModal('assets/python.svg'); skillname('PYTHON', '1 years(Mca 2nd year)', '0', 'I have 1 year of experience in Python programming, which I pursued to upskill myself and explore its wide applications in Artificial Intelligence and Machine Learning. During this period, I built a strong foundation in Python fundamentals such as data types, control flow, functions, and libraries. My focus was on understanding how Python supports AI/ML development, including data handling, automation, and integration with popular frameworks. This experience not only enhanced my programming skills but also broadened my technical perspective, preparing me to leverage Python for advanced use cases in data analysis, machine learning, and real-world problem-solving.')">
+              <div class="upper">
+                <img src="assets/python.svg" alt="">
+              </div>
+              <div class="lower">
+                <h3>PYTHON</h3>
+              </div>
+            </div>
+
+            <div class="skill-card"
+              onclick="openSkillModal('assets/java.svg'); skillname('JAVA','2 years(college 2nd & final year)','1','I have 2 years of experience in Java programming, where I gained strong knowledge of object-oriented principles, exception handling, collections, multithreading, and database connectivity. As part of my practical learning, I developed a Weather Application in Java using JDBC connection for database integration. This project involved fetching and storing weather-related data, managing user queries, and providing a simple, interactive interface for users. Through this experience, I strengthened my skills in Java application development, database handling, and problem-solving. It also enhanced my ability to build reliable, modular, and user-friendly applications suitable for real-world use cases.')">
+              <div class="upper">
+                <img src="assets/java.svg" alt="">
+              </div>
+              <div class="lower">
+                <h3>JAVA</h3>
+              </div>
+            </div>
+
+            <div class="skill-card"
+              onclick="openSkillModal('assets/cpp.svg'); skillname('C PLUS PLUS', '2 years (College 2nd & final year)', '2','I have 2 years of experience in C++ programming, acquired during my second and final years of college. I gained a solid understanding of object-oriented programming (OOP) concepts such as classes, objects, inheritance, polymorphism, and file handling. To apply these concepts, I developed two projects: a Library Management System and a Bank Management System, both using C++ iostream for input/output operations. These projects helped me strengthen my skills in data handling, modular programming, and user interaction. Through this experience, I learned to design structured, reusable, and efficient code, building a strong foundation for advanced programming and software development.')">
+              <div class="upper">
+                <img src="assets/cpp.svg" alt="">
+              </div>
+              <div class="lower">
+                <h3>C++</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="row" style="gap: 15px; margin-bottom: 15px;">
+            <div class="skill-card"
+              onclick="openSkillModal('assets/c.svg'); skillname('C Language', '1.5 years (College 1st year)', '2', 'I have 1.5 years of experience working with C programming language, gained during my first year of college. I developed a strong understanding of fundamental programming concepts such as data types, control structures, functions, arrays, and pointers. To strengthen my practical knowledge, I created small projects including a Number Guessing Game and a Stone-Paper-Scissors Game, which enhanced my logical thinking and problem-solving skills. Through these projects, I learned to write efficient, structured code while focusing on user interaction and error handling. This experience provided me with a solid foundation in programming and sharpened my coding discipline.')">
+              <div class="upper">
+                <img src="assets/c.svg" alt="">
+              </div>
+              <div class="lower">
+                <h3>C</h3>
+              </div>
+            </div>
+
+            <div class="skill-card"
+              onclick="openSkillModal('assets/appian.svg'); skillname('APPIAN', '1 year', '2+', 'I have 1 year of hands-on experience working with Appian, a leading low-code automation platform used for building scalable business applications. During this time, I successfully developed two end-to-end projects. The first was a Restaurant Management Application, designed to streamline reservations, order processing, menu management, and billing workflows. The second was a School Management Application, which automated student enrollment, attendance tracking, fee management, and teacher-student communication. My experience includes working with Appian objects such as process models, records, reports, interfaces, and data types, ensuring secure, user-friendly, and efficient solutions that improve business productivity and user experience.')">
+              <div class="upper">
+                <img src="assets/appian.svg" alt="">
+              </div>
+              <div class="lower">
+                <h3>APPIAN</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+  </section>
+
+  <!-- Modal -->
+  <div id="skillsmodal" class="modal-2">
+    <div class="modal-content-2">
+      <span class="close" onclick="closeSkillModal()">&times;</span>
+      <img id="modalImage" src="" alt="Certificate">
+      <h1 style="margin-bottom: 10px;" id="skill-name">Skill Name : </h1>
+      <h2 style="margin-bottom: 10px;" id="experience">Experience : </h2>
+      <h3 style="margin-bottom: 10px;" id="projects">Projects : </h3>
+      <p id="details">Details:
+
+      </p>
+
+    </div>
+  </div>
+
+  <!-- line pattern -->
+  <img class="line-pattern" src="assets/line_pattern.svg" alt="">
+
+  <!-- circle pattern -->
+  <div class="circle-pattern">
+    <div class="circle-1"></div>
+    <div class="circle-2"></div>
+  </div>
+
+  <!-- footer -->
+  <div class="footer">
+    <span>© <span id="currentYear"></span> Harshit Studios. All rights reserved.</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
