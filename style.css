@@ -19,6 +19,13 @@ html {
   border: 5px solid #000;
   overflow: auto;
   overflow-x: hidden;
+  cursor: url('assets/cursor\ 1.png'), auto;
+}
+
+a{
+  &:hover{
+  cursor: url('assets/cursor\ 1.png'), auto;
+  }
 }
 
 /* .fav{
@@ -121,7 +128,7 @@ html {
 .hamburger {
   display: none;
   font-size: 2rem;
-  cursor: pointer;
+  cursor: url('assets/pointer\ 1.png'), auto;
 }
 
 /* Side Menu */
@@ -149,7 +156,7 @@ html {
 .close-btn {
   font-size: 2rem;
   margin-bottom: 2rem;
-  cursor: pointer;
+  cursor: url('assets/pointer\ 1.png'), auto;
   align-self: flex-end;
   color: white;
 }
@@ -674,7 +681,7 @@ body.unlocked {
   }
 
   &:hover {
-    cursor: pointer;
+    cursor: url('assets/pointer\ 1.png'), auto;
     transform: scale(1.01);
   }
 }
@@ -764,7 +771,7 @@ body.unlocked {
   font-size: 26px;
   font-weight: 400;
   color: #000;
-  cursor: pointer;
+  cursor: url('assets/pointer\ 1.png'), auto;
   height: 35px;
   width: 35px;
   display: flex;
@@ -897,7 +904,7 @@ body.unlocked {
   padding: 20px;
   border-radius: 20px;
   color: #fff;
-  cursor: pointer;
+  cursor: url('assets/pointer\ 1.png'), auto;
   border: 1px solid transparent;
   transition: all 0.2s ease-in-out;
   display: flex;
