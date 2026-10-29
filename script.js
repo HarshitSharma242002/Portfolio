@@ -267,6 +267,32 @@ mob_menu_close.addEventListener('click', () => {
 });
 
 
+const expText = document.getElementById('expText');
+const readMoreText = document.getElementById('read-more-text');
+const readLessText = document.getElementById('read-less-text');
+
+// Initial collapsed state
+expText.style.height = '100px';
+expText.style.overflow = 'hidden';
+
+readMoreText.addEventListener('click', () => {
+  expText.style.height = 'auto';
+  expText.style.overflow = 'visible';
+
+  readMoreText.style.display = 'none';
+  readLessText.style.display = 'inline';
+});
+
+readLessText.addEventListener('click', () => {
+  expText.style.height = '100px';
+  expText.style.overflow = 'hidden';
+
+  readMoreText.style.display = 'inline';
+  readLessText.style.display = 'none';
+});
+
+
+
 
 // Project counter : 
 (function() {
